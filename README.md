@@ -146,6 +146,32 @@ The transformer generates the following HTML structure:
 </div>
 ```
 
+## Light/Dark Dual Themes
+
+When using [dual themes](https://shiki.style/guide/dual-themes#query-based-dark-mode) to prevent shiki from styling the header togather with the rest of the `<pre>` content, simply add more specific css selector to the dark mode style:
+
+### Query-based Dark Mode
+
+```css
+@media (prefers-color-scheme: dark) {
+  .shiki,
+  .shiki code span {  /* <--- "code" added here */
+     ...
+  }
+}
+```
+
+### Class-based Dark Mode
+
+```css
+html.dark .shiki,
+html.dark .shiki code span { /* <--- "code" added here */
+  ...
+}
+```
+
+Now only your custom classes/styles will be applied without `!important` overrides from shiki  🎉
+
 ## API Reference
 
 ### `addHeaderWithCopy(options?: HeaderOptions): ShikiTransformer`
