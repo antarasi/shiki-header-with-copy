@@ -9,6 +9,11 @@ A Shiki transformer that adds a header with language display and a copy button t
 - 🎨 Style it with CSS or Tailwind CSS classes
 - 📦 ESM module support
 
+## Demo
+
+![Demo of shiki-header-with-copy in action](./docs/demo.webp)
+
+
 ## Installation
 
 ```bash
