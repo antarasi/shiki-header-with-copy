@@ -1,0 +1,43 @@
+{
+  "name": "shiki-header-with-copy",
+  "version": "1.0.0",
+  "description": "Shiki transformer adding a header with language as title and a copy button",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "shiki",
+    "transformer",
+    "syntax-highlighting",
+    "copy-button",
+    "header"
+  ],
+  "author": "AntaraSI",
+  "license": "MIT",
+  "devDependencies": {
+    "@shikijs/types": "^3.7.0",
+    "@types/hast": "^3.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antarasi/shiki-header-with-copy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antarasi/shiki-header-with-copy/issues"
+  },
+  "homepage": "https://github.com/antarasi/shiki-header-with-copy#readme",
+  "dependencies": {
+    "hastscript": "^9.0.1"
+  }
+}
