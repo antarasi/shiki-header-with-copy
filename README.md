@@ -59,7 +59,7 @@ const highlighter = await getHighlighter({
 })
 ```
 
-## Or style with your custom CSS
+### Or style with your custom CSS
 
 ```css
 pre:has(code) {
