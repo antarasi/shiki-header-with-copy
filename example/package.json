@@ -1,0 +1,27 @@
+{
+  "name": "shiki-header-with-copy-example",
+  "description": "Example using Shiki header with copy button",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "antarasi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antarasi/shiki-header-with-copy/issues"
+  },
+  "homepage": "https://github.com/antarasi/shiki-header-with-copy#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "shiki": "^3.7.0",
+    "shiki-header-with-copy": "^1.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antarasi/shiki-header-with-copy.git"
+  }
+}

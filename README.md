@@ -25,24 +25,29 @@ npm install shiki-header-with-copy
 ### Basic Usage
 
 ```typescript
-import { getHighlighter } from 'shiki'
+import { codeToHtml } from 'shiki'
 import { addHeaderWithCopy } from 'shiki-header-with-copy'
 
-const highlighter = await getHighlighter({
-  theme: 'github-dark',
-  transformers: [
-    addHeaderWithCopy()
-  ]
+const code = 'const number = 1'
+
+const html = await codeToHtml(code, {
+    lang: 'javascript',
+    theme: 'github-dark',
+    transformers: [
+      addHeaderWithCopy({
+        showButtonText: true,
+      })
+    ],
 })
 ```
 
 ### Style it with Tailwind CSS
 
 ```typescript
-import { getHighlighter } from 'shiki'
+import { codeToHtml } from 'shiki'
 import { addHeaderWithCopy } from 'shiki-header-with-copy'
 
-const highlighter = await getHighlighter({
+const html = await codeToHtml(code, {
   theme: 'github-dark',
   transformers: [
     addHeaderWithCopy({
@@ -83,10 +88,14 @@ pre:has(code) .code-wrapper {
 
 pre:has(code) .shiki-header-with-copy button {
   padding: 0 8px;
+  background: none;
+  outline: none;
+  color: inherit;
+  border: none;
 }
 
 pre:has(code) .shiki-header-with-copy button:hover {
-  color: #0969da;
+  color: #3189f0;
 }
 
 pre:has(code) .shiki-header-with-copy button span {

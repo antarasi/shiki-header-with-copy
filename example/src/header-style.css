@@ -1,0 +1,44 @@
+pre:has(code) {
+  border-radius: 10px;
+  margin: 15px 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+pre:has(code) .shiki-header-with-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+pre:has(code) .code-wrapper {
+  overflow-x: auto;
+  padding: 16px;
+}
+
+pre:has(code) .shiki-header-with-copy button {
+  padding: 0 8px;
+  background: none;
+  outline: none;
+  color: inherit;
+  border: none;
+}
+
+pre:has(code) .shiki-header-with-copy button:hover {
+  color: #3189f0;
+}
+
+pre:has(code) .shiki-header-with-copy button span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+pre:has(code) .shiki-header-with-copy button svg {
+  height: 15px;
+}
+
+pre:has(code) .shiki-header-with-copy button span.success {
+  color: #009900;
+}
