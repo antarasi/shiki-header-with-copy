@@ -1,6 +1,6 @@
 {
   "name": "shiki-header-with-copy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shiki transformer adding a header with language as title and a copy button",
   "type": "module",
   "main": "dist/index.js",
