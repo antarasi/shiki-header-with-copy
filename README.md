@@ -13,6 +13,8 @@ A Shiki transformer that adds a header with language display and a copy button t
 
 ![Demo of shiki-header-with-copy in action](./docs/demo.webp)
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/antarasi/shiki-header-with-copy/tree/main/example?file=src%2Fmain.ts)
+
 
 ## Installation
 
