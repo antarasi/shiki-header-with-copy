@@ -1,5 +1,8 @@
 # shiki-header-with-copy
 
+[![npm version](https://img.shields.io/npm/v/shiki-header-with-copy)](https://npmjs.com/package/shiki-header-with-copy)
+<!-- [![npm downloads](https://img.shields.io/npm/dm/shiki-header-with-copy)](https://npmjs.com/package/shiki-header-with-copy) -->
+
 A Shiki transformer that adds a header with language display and a copy button to syntax-highlighted code blocks.
 
 ## Features
