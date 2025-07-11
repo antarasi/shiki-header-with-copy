@@ -40,5 +40,9 @@
   "homepage": "https://github.com/antarasi/shiki-header-with-copy#readme",
   "dependencies": {
     "hastscript": "^9.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
